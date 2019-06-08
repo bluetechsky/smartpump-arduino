@@ -12,7 +12,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(pumpPin, HIGH);
-  delay(30000); //30s
+  delay(20000); //30s
   digitalWrite(pumpPin, LOW);
-  delay(2*HOUR); // Delay 1 minute
+  delay(72000000); // Delay 1 minute
 }
